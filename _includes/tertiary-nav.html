@@ -1,0 +1,28 @@
+<nav id="side-menu" class="nav side-menu element-nav" aria-label="Secondary navigation"></nav>
+  <h2>Components</h2>
+
+    {% if site.data.side_nav.side-navigation[0] %}
+      <ul class="menu usa-sidenav">
+        {% for item in site.data.side_nav.side-navigation %}
+          {% assign _href = item.url %}
+          {% assign _current = false %}
+          {% if item.url == page.url or item.url == page.permalink %}
+            {% assign _current = true %}
+          {% endif %}
+          <li class="menu-item level-1 usa-sidenav__item">
+            <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+
+            {% if item.second-level[0] %}
+              <ul>
+                {% for item in item.second-level %}
+                  <li class="menu-item level-2 usa-sidenav__sublist">
+                    <a href="{{ item.url | relative_url }}">{{ item.page }}</a>
+                  </li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+</nav>
