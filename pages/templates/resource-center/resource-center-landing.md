@@ -1,9 +1,8 @@
 ---
 layout: page
-title: Resource Center Template
+title: Resource Center Landing Template
 category: templates
-permalink: "/resource-center/"
-sidenav: side-navigation
+permalink: "/resource-center-landing/"
 ---
 
 The resource center template should be used for sites that list out resources such as the Evidence Based Practices Resource Center (EBRPC) and Disaster Behavioral Health Information Series (DBHIS). The list is a filterable and searchable index that links users to publications or resources. Detail pages are available to house any resource that needs to live with in the respective center, otherwise the list will point directly to item.
@@ -20,18 +19,6 @@ The resource center template should be used for sites that list out resources su
 - [Pagination](#pagination)
 - [Full Page Example](#example)
 
-
-## Content Specifications
-<div class="accordion">
-    <div class="option">
-      <input type="checkbox" id="toggle1" class="toggle" />
-      <label class="title" for="toggle1">Open to view Content Specs
-      </label>
-      <div class="content">
-        <p>_@Leake to complete_</p>
-      </div>
-    </div>
-</div>
 
 <a href="load"></a>
 ## On Page Load
@@ -63,14 +50,22 @@ The search bar is centered at 70% width of the content area.
 - Submit Button \| Content: "Submit"
 
 ### Functionality:
-- OnClick / OnTap of button, system uses the content of the input to search the collection. The resource list is updated to show matching results
-**_@Leake -- What are we searching against?_**
+- OnClick / OnTap of button, system uses the content of the input to search the collection (titles, short description, taxonomy terms). The resource list is updated to show matching results
 _(see more about [form field specifications]({{ site.url }}/forms))_
 
 
 <a href="filters"></a>
 ## Filters
-TBD
+
+- Category Filter - uses a dropdown to select. See the "Collections" in the [Taxonomy specifications]({{ site.url}}/resource-center) for child terms.
+- Publication Date - uses the [Date Rage Filter]({{ site.url }}/search#date)
+
+All other filters use the [Multi-Select Filter]({{ site.url }}/search#multi). See the [Taxonomy specifications]({{ site.url}}/resource-center) for child items for each filter
+- Report Type
+- Population
+- Source
+- Substances
+- Conditions
 
 
 <a href="search"></a>
@@ -93,18 +88,11 @@ Search header contains:
 <a href="mobile"></a>
 ## Mobile Search and Filter Accordion
 On Small screens, search, filters, sort and view are all hidden behind an accordion.
-- OnClick or OnTap accordion slides to open or closed state and icon displays new state
+
+OnClick or OnTap accordion slides to open or closed state and icon displays new state
 _see [accordions]({{ site.url }}/accordion) for more information_
 
-
-*filter in closed state*
-
-![filter closed](../assets/img/resource-center/mobile-filter-closed.png)
-
-
-*filter in open state*
-
-![filter closed](../assets/img/resource-center/mobile-filter-open.png)
+| *filter in closed state* ![filter closed](../assets/img/resource-center/mobile-filter-closed.png) | *filter in open state* ![filter closed](../assets/img/resource-center/mobile-filter-open.png) |
 
 
 
@@ -112,7 +100,7 @@ _see [accordions]({{ site.url }}/accordion) for more information_
 ## List Item
 Each return item contains:
 1. Resource Title - H3 - links to source
-2. Sub-title - H6 (optinal)
+2. Sub-title - H6 (optional)
 3. Publication Date - body text
 4. Resource Description - body text
 5. CTA - url link to source - content =  "Get this Resource"
@@ -124,79 +112,7 @@ Each return item contains:
   - for 508 accessibilty - images are for display only and alt text should be set to null.
 
 **Examples**
-<table>
-  <tr>
-    <td>EBPRC large screen</td>
-    <td><img src="../assets/img/resource-center/return-item-ebrc.png"></td>
-  </tr>
-  <tr>
-    <td>EBPRC small screen</td>
-    <td><img src="../assets/img/resource-center/mobile-return-item-ebrc.png"></td>
-  </tr>
-  <tr>
-    <td>DBHIS large screen</td>
-    <td><img src="../assets/img/resource-center/return-item-dbhis.png"></td>
-  </tr>
-  <tr>
-    <td>DBHIS small screen</td>
-    <td><img src="../assets/img/resource-center/mobile-return-item-dbhis.png"></td>
-  </tr>
-</table>
 
-
-
-<a href="pagination"></a>
-## Pagination
-
-Resource pages use the standard pagination. Find out more [about pagination]({{ site.url }}/pagination).
-
-<a href="example"></a>
-## Full Page Example
-**EBPRC**
-<table>
-  <tr>
-    <td>
-      <label class="btn" for="modal-ebrc-lg">
-        <img src="../assets/img/resource-center/thumb-ebprc-concept.png">
-      </label>
-    </td>
-    <td>
-      <label class="btn" for="modal-ebrc-sm">
-        <img src="../assets/img/resource-center/thumb-sm-ebprc-concept.png">
-      </label>
-    </td>
-  </tr>
-  <tr>
-    <td>large screen</td>
-    <td>small screen</td>
-  </tr>
-</table>
-
-**DBHIS**
-<table>
-  <tr>
-    <td>
-      <label class="btn" for="modal-dbhis-lg">
-        <img src="../assets/img/resource-center/thumb-dbhis-concept.png">
-      </label>
-    </td>
-    <td>
-      <label class="btn" for="modal-dbhis-sm">
-        <img src="../assets/img/resource-center/thumb-sm-dbhis-concept.png">
-      </label>
-    </td>
-  </tr>
-  <tr>
-    <td>large screen</td>
-    <td>small screen</td>
-  </tr>
-</table>
-
-
-{% include snippets/modal.html id="modal-ebrc-lg" title="EBPRC - large screen" img="../assets/img/resource-center/ebprc-concept.png" %}
-
-{% include snippets/modal.html id="modal-ebrc-sm" title="EBPRC - small screen" img="../assets/img/resource-center/sm-ebprc-concept.png" %}
-
-{% include snippets/modal.html id="modal-dbhis-lg" title="DBHIS - large screen" img="../assets/img/resource-center/dbhis-concept.png" %}
-
-{% include snippets/modal.html id="modal-dbhis-sm" title="DBHIS - small screen" img="../assets/img/resource-center/sm-dbhis-concept.png" %}
+View On Abstract
+- [EBPRC examples](https://share.goabstract.com/c4c8d08c-9e66-40f6-835d-2d6fbc0d1aea?sectionId=fcc83cb1-766d-40c7-bd40-9df9dd3fe411) 
+- [DBHIS examples](https://share.goabstract.com/c4c8d08c-9e66-40f6-835d-2d6fbc0d1aea?sectionId=6ad14633-e467-44b9-a312-b57be092c439)
