@@ -16,8 +16,6 @@ side-navigation:
   - title: Elements
     url: /buttons
     second-level:
-      - page: Accordion
-        url: /accordion
       - page: Buttons
         url: /buttons
       - page: Checkbox
@@ -62,6 +60,8 @@ side-navigation:
   - title: Components
     url: /cards
     second-level:
+      - page: Accordion
+        url: /accordion
       - page: Alert
         url: /alert
       - page: Cards
