@@ -1,33 +1,212 @@
-<div class="container">
-  <div class="accordion">
+<h6>Borderless</h6>
 
-    <div class="option">
-      <input type="checkbox" id="toggle1" class="toggle" />
-      <label class="title" for="toggle1">Well, hello there
-      </label>
-      <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-      </div>
-    </div>
+<div class="samhsa-accordion usa-accordion">
+  
+      <!-- Use the accurate heading level to maintain the document outline -->
+      <h2 class="usa-accordion__heading">
+        <button class="usa-accordion__button"
+          aria-expanded="true"
+          aria-controls="a1">
+          First Amendment
+        </button>
+      </h2>
+      <div id="a1" class="usa-accordion__content usa-prose">
+        <p>Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging the freedom of speech, or of the press; or the right of the people peaceably to assemble, and to petition the Government for a redress of grievances.</p>
 
-    <div class="option">
-      <input type="checkbox" id="toggle2" class="toggle" />
-      <label class="title" for="toggle2">
-        I am here to assist you
-      </label>
-      <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
       </div>
-    </div>
+  
+      <!-- Use the accurate heading level to maintain the document outline -->
+      <h2 class="usa-accordion__heading">
+        <button class="usa-accordion__button"
+          aria-expanded="false"
+          aria-controls="a2">
+          Second Amendment
+        </button>
+      </h2>
+      <div id="a2" class="usa-accordion__content usa-prose">
+        <p>A well regulated Militia, being necessary to the security of a free State, the right of the people to keep and bear Arms, shall not be infringed.</p> <ul><li>This is a list item</li><li>Another list item</li></ul>
 
-    <div class="option">
-      <input type="checkbox" id="toggle3" class="toggle" />
-      <label class="title" for="toggle3">
-        Let's get started
-      </label>
-      <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
       </div>
-    </div>
-  </div>
+  
+      <!-- Use the accurate heading level to maintain the document outline -->
+      <h2 class="usa-accordion__heading">
+        <button class="usa-accordion__button"
+          aria-expanded="false"
+          aria-controls="a3">
+          Third Amendment
+        </button>
+      </h2>
+      <div id="a3" class="usa-accordion__content usa-prose">
+        <p>No Soldier shall, in time of peace be quartered in any house, without the consent of the Owner, nor in time of war, but in a manner to be prescribed by law.</p>
+
+      </div>
+  
+      <!-- Use the accurate heading level to maintain the document outline -->
+      <h2 class="usa-accordion__heading">
+        <button class="usa-accordion__button"
+          aria-expanded="false"
+          aria-controls="a4">
+          Fourth Amendment
+        </button>
+      </h2>
+      <div id="a4" class="usa-accordion__content usa-prose">
+        <p>The right of the people to be secure in their persons, houses, papers, and effects, against unreasonable searches and seizures, shall not be violated, and no Warrants shall issue, but upon probable cause, supported by Oath or affirmation, and particularly describing the place to be searched, and the persons or things to be seized.</p>
+
+      </div>
+  
+      <!-- Use the accurate heading level to maintain the document outline -->
+      <h2 class="usa-accordion__heading">
+        <button class="usa-accordion__button"
+          aria-expanded="false"
+          aria-controls="a5">
+          Fifth Amendment
+        </button>
+      </h2>
+      <div id="a5" class="usa-accordion__content usa-prose">
+        <p>No person shall be held to answer for a capital, or otherwise infamous crime, unless on a presentment or indictment of a Grand Jury, except in cases arising in the land or naval forces, or in the Militia, when in actual service in time of War or public danger; nor shall any person be subject for the same offence to be twice put in jeopardy of life or limb; nor shall be compelled in any criminal case to be a witness against himself, nor be deprived of life, liberty, or property, without due process of law; nor shall private property be taken for public use, without just compensation.</p>
+
+      </div>
+  
+</div>
+
+<h6>Bordered</h6>
+
+<div class="samhsa-accordion usa-accordion usa-accordion--bordered">
+  
+      <!-- Use the accurate heading level to maintain the document outline -->
+      <h2 class="usa-accordion__heading">
+        <button class="usa-accordion__button"
+          aria-expanded="true"
+          aria-controls="b-a1">
+          First Amendment
+        </button>
+      </h2>
+      <div id="b-a1" class="usa-accordion__content usa-prose">
+        <p>Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging the freedom of speech, or of the press; or the right of the people peaceably to assemble, and to petition the Government for a redress of grievances.</p>
+
+      </div>
+  
+      <!-- Use the accurate heading level to maintain the document outline -->
+      <h2 class="usa-accordion__heading">
+        <button class="usa-accordion__button"
+          aria-expanded="false"
+          aria-controls="b-a2">
+          Second Amendment
+        </button>
+      </h2>
+      <div id="b-a2" class="usa-accordion__content usa-prose">
+        <p>A well regulated Militia, being necessary to the security of a free State, the right of the people to keep and bear Arms, shall not be infringed.</p> <ul><li>This is a list item</li><li>Another list item</li></ul>
+
+      </div>
+  
+      <!-- Use the accurate heading level to maintain the document outline -->
+      <h2 class="usa-accordion__heading">
+        <button class="usa-accordion__button"
+          aria-expanded="false"
+          aria-controls="b-a3">
+          Third Amendment
+        </button>
+      </h2>
+      <div id="b-a3" class="usa-accordion__content usa-prose">
+        <p>No Soldier shall, in time of peace be quartered in any house, without the consent of the Owner, nor in time of war, but in a manner to be prescribed by law.</p>
+
+      </div>
+  
+      <!-- Use the accurate heading level to maintain the document outline -->
+      <h2 class="usa-accordion__heading">
+        <button class="usa-accordion__button"
+          aria-expanded="false"
+          aria-controls="b-a4">
+          Fourth Amendment
+        </button>
+      </h2>
+      <div id="b-a4" class="usa-accordion__content usa-prose">
+        <p>The right of the people to be secure in their persons, houses, papers, and effects, against unreasonable searches and seizures, shall not be violated, and no Warrants shall issue, but upon probable cause, supported by Oath or affirmation, and particularly describing the place to be searched, and the persons or things to be seized.</p>
+
+      </div>
+  
+      <!-- Use the accurate heading level to maintain the document outline -->
+      <h2 class="usa-accordion__heading">
+        <button class="usa-accordion__button"
+          aria-expanded="false"
+          aria-controls="b-a5">
+          Fifth Amendment
+        </button>
+      </h2>
+      <div id="b-a5" class="usa-accordion__content usa-prose">
+        <p>No person shall be held to answer for a capital, or otherwise infamous crime, unless on a presentment or indictment of a Grand Jury, except in cases arising in the land or naval forces, or in the Militia, when in actual service in time of War or public danger; nor shall any person be subject for the same offence to be twice put in jeopardy of life or limb; nor shall be compelled in any criminal case to be a witness against himself, nor be deprived of life, liberty, or property, without due process of law; nor shall private property be taken for public use, without just compensation.</p>
+
+      </div>
+  
+</div>
+
+<h6>Multiselectable</h6>
+
+<div class="samhsa-accordion usa-accordion" aria-multiselectable="true">
+  
+      <!-- Use the accurate heading level to maintain the document outline -->
+      <h2 class="usa-accordion__heading">
+        <button class="usa-accordion__button"
+          aria-expanded="true"
+          aria-controls="m-a1">
+          First Amendment
+        </button>
+      </h2>
+      <div id="m-a1" class="usa-accordion__content usa-prose">
+        <p>Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging the freedom of speech, or of the press; or the right of the people peaceably to assemble, and to petition the Government for a redress of grievances.</p>
+
+      </div>
+  
+      <!-- Use the accurate heading level to maintain the document outline -->
+      <h2 class="usa-accordion__heading">
+        <button class="usa-accordion__button"
+          aria-expanded="false"
+          aria-controls="m-a2">
+          Second Amendment
+        </button>
+      </h2>
+      <div id="m-a2" class="usa-accordion__content usa-prose">
+        <p>A well regulated Militia, being necessary to the security of a free State, the right of the people to keep and bear Arms, shall not be infringed.</p> <ul><li>This is a list item</li><li>Another list item</li></ul>
+
+      </div>
+  
+      <!-- Use the accurate heading level to maintain the document outline -->
+      <h2 class="usa-accordion__heading">
+        <button class="usa-accordion__button"
+          aria-expanded="false"
+          aria-controls="m-a3">
+          Third Amendment
+        </button>
+      </h2>
+      <div id="m-a3" class="usa-accordion__content usa-prose">
+        <p>No Soldier shall, in time of peace be quartered in any house, without the consent of the Owner, nor in time of war, but in a manner to be prescribed by law.</p>
+
+      </div>
+  
+      <!-- Use the accurate heading level to maintain the document outline -->
+      <h2 class="usa-accordion__heading">
+        <button class="usa-accordion__button"
+          aria-expanded="false"
+          aria-controls="m-a4">
+          Fourth Amendment
+        </button>
+      </h2>
+      <div id="m-a4" class="usa-accordion__content usa-prose">
+        <p>The right of the people to be secure in their persons, houses, papers, and effects, against unreasonable searches and seizures, shall not be violated, and no Warrants shall issue, but upon probable cause, supported by Oath or affirmation, and particularly describing the place to be searched, and the persons or things to be seized.</p>
+
+      </div>
+  
+      <!-- Use the accurate heading level to maintain the document outline -->
+      <h2 class="usa-accordion__heading">
+        <button class="usa-accordion__button"
+          aria-expanded="false"
+          aria-controls="m-a5">
+          Fifth Amendment
+        </button>
+      </h2>
+      <div id="m-a5" class="usa-accordion__content usa-prose">
+        <p>No person shall be held to answer for a capital, or otherwise infamous crime, unless on a presentment or indictment of a Grand Jury, except in cases arising in the land or naval forces, or in the Militia, when in actual service in time of War or public danger; nor shall any person be subject for the same offence to be twice put in jeopardy of life or limb; nor shall be compelled in any criminal case to be a witness against himself, nor be deprived of life, liberty, or property, without due process of law; nor shall private property be taken for public use, without just compensation.</p>
+
+      </div>
+  
 </div>

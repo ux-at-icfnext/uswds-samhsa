@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Accordion
-category: elements
+category: components
 permalink: "/accordion/"
 sidenav: side-navigation
 ---
@@ -13,21 +13,11 @@ See more guidance from the [USWDS](https://designsystem.digital.gov/components/a
 
 **Contents**
 - [Design](#design)
-- [Functionality](#functionality)
-- [Accessibility](#accessibility)
 - [Code](#code)
 
 <a name="design"></a>
 ## Design
 {% include patterns/accordion/accordion.md %}
-
-
-
-<a name="functionality"></a>
-### Functionality
-
-<a name="accessibility"></a>
-### Accessibility
 
 
 <a name="code"></a>
