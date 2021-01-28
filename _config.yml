@@ -23,8 +23,8 @@ description: # this means to ignore newlines until "baseurl:"
 baseurl: "/uswds-samhsa"
 url: "https://github.com/ux-at-icfnext/uswds-samhsa"
 
-#theme: uswds-jekyll
-remote_theme: uswds-jekyll
+theme: uswds-jekyll
+#remote_theme: uswds-jekyll
 
 # GitHub information
 # This is used for adding an edit this page link to the footer
