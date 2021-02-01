@@ -5,4 +5,9 @@ category: templates
 permalink: "/templates/"
 ---
 
-This section of the library house page level designs for the SAMHSA main site. They should be used as guidance for other SAMHSA properties that are creating similar experiences.
+This section of the library house page level designs for the SAMHSA main site. 
+
+## Contents
+- [Home Page]({{ site.url}}/homepage)
+- [Search]({{ site.url }}/search)
+- [Resource Center]({{ site.url}}/resource-center/)
